@@ -1,0 +1,21 @@
+[package]
+name = "mtd-cli"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "mtd"
+path = "src/main.rs"
+
+[dependencies]
+mtd-index.workspace = true
+mtd-claude.workspace = true
+mtd-mcp.workspace = true
+mtd-sw.workspace = true
+sha2.workspace = true
+tokio.workspace = true
+anyhow.workspace = true
+serde_json.workspace = true
+clap = { version = "4", features = ["derive"] }

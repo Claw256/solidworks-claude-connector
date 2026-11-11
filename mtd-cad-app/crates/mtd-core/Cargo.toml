@@ -1,0 +1,10 @@
+[package]
+name = "mtd-core"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+regex.workspace = true
+serde.workspace = true
