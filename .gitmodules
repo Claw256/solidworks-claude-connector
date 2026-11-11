@@ -1,0 +1,3 @@
+[submodule "pi-claude-bridge"]
+	path = pi-claude-bridge
+	url = https://github.com/elidickinson/pi-claude-bridge.git
